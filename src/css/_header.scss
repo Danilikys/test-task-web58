@@ -1,0 +1,127 @@
+.header{
+
+  &-top{
+    background-color: #101418;
+    height: 40px;
+  }
+
+  &-row-top{
+    height: 40px;
+  }
+
+  &-bot{
+    background-color: #fff;
+    height: 90px;
+
+  }
+
+  &-row-bot{
+    height: 90px;
+    padding-bottom: 5px;
+  }
+
+  &__booking, &__delivery{
+    align-self: center;
+    font-size: 11px;
+    color: rgb(168, 13, 38);
+    //line-height: 2.182;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  &__phone-first, &__phone-second{
+    align-self: center;
+    font-size: 16px;
+    font-family: inherit;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    //line-height: 1.75;
+    text-align: center;
+    margin-left: 10px;
+    white-space: nowrap;
+  }
+
+  &__phone-first{
+    //margin-left: 5px;
+  }
+
+  &__phone-second{
+    text-align: left;
+    //margin-left: -10px;
+  }
+
+  &__burger{
+    position: relative;
+    height: 45px;
+    width: 60px;
+    cursor: pointer;
+
+    &-button{
+      width: 50px;
+      border-radius: 5px;
+      background-color: black;
+      border: 2px solid black;
+      position: absolute;
+      top: 50%;
+
+      &::after{
+        content: '';
+        display: block;
+        width: 50px;
+        border-radius: 5px;
+        border: 2px solid black;
+        position: absolute;
+        bottom: -15px;
+        left: -2px;
+      }
+
+      &::before{
+        content: '';
+        display: block;
+        width: 50px;
+        border-radius: 5px;
+        border: 2px solid black;
+        position: absolute;
+        top: -15px;
+        left: -2px;
+      }
+    }
+  }
+
+  &__logo{
+    height: 63px;
+    width: 225px;
+    background-image: url('../files/photos/IP_brandmark_2013-line_2.png');
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  &__basket{
+    width: 33px;
+    height: 33px;
+    background-image: url("../files/icons/001-commerce.svg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 13px;
+
+    &-count{
+      display: flex;
+      width: 23px;
+      height: 23px;
+      border-radius: 50%;
+      background-color: rgb(168, 13, 38);
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+      font-size: 12px;
+      position: absolute;
+      bottom: -12px;
+      left: -9px;
+    }
+  }
+}
+
+
