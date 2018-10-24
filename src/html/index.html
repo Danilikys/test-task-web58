@@ -5,6 +5,7 @@
   <title>Задание</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="./files/plugins/OwlCarousel/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
@@ -13,10 +14,59 @@
 
 <main class="main">
 
+  <section class="slider">
+          <div class="owl-carousel">
+            <div class="slider__item">
+              <div class="slider__item-inner" style="background-image: url('./files/photos/hero_bg_5.jpg')">
+                <h1 class="slider__item-title">Заголовок1</h1>
+                <div class="slider__item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                <a href="#" class="slider__item-button">подробнее</a>
+              </div>
+            </div>
+            <div class="slider__item">
+              <div class="slider__item-inner" style="background-image: url('./files/photos/hero_bg_5.jpg')">
+                <h1 class="slider__item-title">Заголовок2</h1>
+                <div class="slider__item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                <a href="#" class="slider__item-button">подробнее</a>
+              </div>
+            </div>
+            <div class="slider__item">
+              <div class="slider__item-inner" style="background-image: url('./files/photos/hero_bg_5.jpg')">
+                <h1 class="slider__item-title">Заголовок3</h1>
+                <div class="slider__item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                <a href="#" class="slider__item-button">подробнее</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-next slider-button"></div>
+          <div class="slider-prev slider-button"></div>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="about__title">О компании</h2>
+          <div class="about__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+          <div class="about__photo" style="background-image: url('./files/photos/hero_bg_1.jpg')"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </main>
 
 //= footer.html
 
 <script src="./files/plugins/jquery/jquery-3.3.1.min.js"></script>
+<script src="./files/plugins/OwlCarousel/owl.carousel.min.js"></script>
+<script src="./js/main.js"></script>
+
 </body>
 </html>
+
+
+
+
+
+

@@ -80,7 +80,7 @@
       width: 275px;
       position: absolute;
       bottom: 3px;
-      left: 50%;
+      left: calc(50% - 6px);
       transform: translateX(-50%);
     }
   }

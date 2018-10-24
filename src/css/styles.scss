@@ -1,3 +1,125 @@
 @import "settings";
 @import "header";
 @import "footer";
+
+
+
+
+.slider{
+  position: relative;
+
+  &__item{
+
+    &-inner{
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 510px;
+      padding: 0 10px 0;
+    }
+
+    &-title{
+      padding: 80px 0 10px;
+      color: #fff;
+      font-size: 48px;
+    }
+    
+    &-desc{
+      font-family: 'IntroHeadR-Base';
+      color: #fff;
+      font-size: 18px;
+      line-height: 1.556;
+      margin-bottom: 32px;
+    }
+
+    &-button{
+      font-size: 14px;
+      width: 200px;
+      height: 47px;
+      background-color: rgb(251, 197, 84);
+      border-radius: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: #000;
+      
+      &:hover, &:visited, &:link, &:active{
+        text-decoration: none;
+        color: #000;
+      }
+    }
+  }
+
+  &-button{
+    position: absolute;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 1;
+    cursor: pointer;
+
+    &::after{
+      display: block;
+      content: '';
+      background-image: url("../files/icons/next.svg");
+      background-size: cover;
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &-next{
+    background-color: #a80d26;
+    right: 10px;
+  }
+
+  &-prev{
+    background-color: #fcc23e;
+    transform: scale(-1, 1);
+    right: 80px;
+  }
+}
+
+.about{
+  padding: 50px 0 80px;
+
+  &__title{
+    font-family: 'Orpheus-Bold';
+    font-size: 40px;
+    color: rgb(27, 35, 31);
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 60px;
+
+    &::after{
+      display: block;
+      position: absolute;
+      bottom: -32px;
+      content: '';
+      height: 6px;
+      width: 100px;
+      background-color: rgb(168, 13, 38);
+      border-radius: 10px;
+    }
+  }
+
+  &__desc{
+    font-family: 'IntroHeadR-Base';
+    font-size: 22px;
+    color: rgb(27, 35, 31);
+    margin-bottom: 40px;
+  }
+
+  &__photo{
+    height: 340px;
+    background-size: cover;
+    box-shadow: 0px 10px 13px 5px rgba(0,0,0,0.5);
+  }
+}
+
+
