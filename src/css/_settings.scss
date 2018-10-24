@@ -15,4 +15,11 @@
 
 body{
   font-family: 'Intro-Bold-Caps';
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main{
+  flex: 1;
 }
