@@ -23,3 +23,29 @@ body{
 .main{
   flex: 1;
 }
+
+.h2-title{
+  font-family: 'Orpheus-Bold';
+  font-size: 40px;
+  color: rgb(27, 35, 31);
+  font-weight: bold;
+  position: relative;
+
+  &::after{
+    display: block;
+    position: absolute;
+    bottom: -32px;
+    content: '';
+    height: 6px;
+    width: 100px;
+    background-color: rgb(168, 13, 38);
+    border-radius: 10px;
+  }
+}
+
+.button-def{
+  &:hover, &:visited, &:link, &:active{
+    text-decoration: none;
+    color: #000;
+  }
+}
