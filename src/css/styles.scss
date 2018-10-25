@@ -315,3 +315,28 @@
     white-space: nowrap;
   }
 }
+
+
+@media screen and (max-width:400px){
+
+  .header__logo{
+    margin-left: -40px;
+  }
+
+  .info{
+    padding-left: 0;
+  }
+
+  .social__title {
+    white-space: normal;
+
+    &::after{
+      display: none;
+    }
+  }
+
+  .social-default{
+    padding-right: 70px;
+  }
+
+}
