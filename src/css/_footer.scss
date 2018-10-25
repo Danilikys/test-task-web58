@@ -39,11 +39,6 @@
     &:before {
       background-image: url("../files/icons/002-placeholder.svg");
     }
-
-    span::before{
-      display: block;
-      content: '';
-    }
   }
 
   &__phone{
@@ -71,6 +66,7 @@
     position: relative;
     margin-bottom: 54px;
     padding-right: 13px;
+    white-space: nowrap;
 
     &::after{
       display: block;

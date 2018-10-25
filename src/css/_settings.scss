@@ -1,3 +1,9 @@
+.row > .col,
+.row > [class*="col-"] {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
 @font-face{
   font-family: 'Intro-Bold-Caps';
   src: url('../files/fonts/Intro-Bold-Caps.otf') format("opentype");
@@ -15,6 +21,7 @@
 
 body{
   font-family: 'Intro-Bold-Caps';
+  color: rgb(16, 20, 24);
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -49,3 +56,13 @@ body{
     color: #000;
   }
 }
+
+.broken-span::before{
+  display: block;
+  content: '';
+}
+
+.red-span{
+  color: rgb(168, 13, 38);
+}
+

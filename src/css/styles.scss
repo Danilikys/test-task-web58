@@ -164,3 +164,30 @@
     }
   }
 }
+
+.info{
+  padding-left: 33px;
+
+  &__time{
+    margin-bottom: 40px;
+
+    &-title{
+      font-size: 12px;
+    }
+
+    &-days{
+      color: rgb(16, 20, 24);
+    }
+  }
+
+  &__contacts{
+    color: rgb(168, 13, 38);
+    font-size: 22px;
+  }
+
+  &__phone{
+    font-size: 30px;
+    color: rgb(16, 20, 24);
+    white-space: nowrap;
+  }
+}
