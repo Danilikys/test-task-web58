@@ -47,6 +47,8 @@ a{
   border-bottom: 1px solid #fff;
 }
 
+//RED-LINE-TITLE
+
 .h2-title{
   font-family: 'Orpheus-Bold';
   font-size: 40px;
@@ -57,7 +59,7 @@ a{
   &::after{
     display: block;
     position: absolute;
-    bottom: -32px;
+    bottom: -34px;
     content: '';
     height: 6px;
     width: 100px;
