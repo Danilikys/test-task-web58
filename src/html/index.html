@@ -34,7 +34,7 @@
               <div class="slider__item-inner" style="background-image: url('./files/photos/hero_bg_5.jpg')">
                 <h1 class="slider__item-title">Заголовок3</h1>
                 <div class="slider__item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-                <a href="#" class="slider__item-button button-def">подробнее</a>
+                <a href="#" class="slider__item-button">подробнее</a>
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@
               <div class="news__item-data">14.04.2018</div>
               <div class="news__item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </div>
             </div>
-            <a href="#" class="news__item-button button-def">читать далее</a>
+            <a href="#" class="news__item-button">читать далее</a>
           </div>
         </div>
         <div class="col-10">
@@ -81,7 +81,7 @@
               <div class="news__item-data">14.04.2018</div>
               <div class="news__item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </div>
             </div>
-            <a href="#" class="news__item-button button-def">читать далее</a>
+            <a href="#" class="news__item-button">читать далее</a>
           </div>
         </div>
         <div class="col-10">
@@ -92,14 +92,29 @@
               <div class="news__item-data">14.04.2018</div>
               <div class="news__item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </div>
             </div>
-            <a href="#" class="news__item-button button-def">читать далее</a>
+            <a href="#" class="news__item-button">читать далее</a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <nav class="menu"></nav>
+  <nav class="menu" id="burger-menu">
+    <ul class="menu__list">
+      <li class="menu__list-item border-bot-white"><span class="menu__list-item__title menu__list-item__title_o">меню ресторана</span>
+        <ul class="menu__sublist menu__sublist-4i">
+          <li class="menu__sublist-item"><a href="#" class="menu__sublist-item__link menu_main">основное меню</a></li>
+          <li class="menu__sublist-item"><a href="#" class="menu__sublist-item__link menu_bar">барное меню</a></li>
+          <li class="menu__sublist-item"><a href="#" class="menu__sublist-item__link menu_special">специальное меню</a></li>
+          <li class="menu__sublist-item"><a href="#" class="menu__sublist-item__link menu_child">детское меню</a></li>
+        </ul>
+      </li>
+      <li class="menu__list-item border-bot-white"><span class="menu__list-item__title menu__list-item__title_c">меню доставки</span></li>
+      <li class="menu__list-item border-bot-white"><span class="menu__list-item__title menu__list-item__title_c">акции и события</span></li>
+      <li class="menu__list-item border-bot-white"><a href="#" class="menu__list-item__title">доставка и оплата</a></li>
+      <li class="menu__list-item border-bot-white"><a href="#" class="menu__list-item__title">контакты</a></li>
+    </ul>
+  </nav>
 
   <section class="info">
     <div class="container">
@@ -119,7 +134,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row align-items-center">
         <div class="col-6">
           <div class="info__contacts">бронирование</div>
         </div>
@@ -127,7 +142,7 @@
           <div class="info__phone">25-15-25</div>
         </div>
       </div>
-      <div class="row">
+      <div class="row align-items-center">
         <div class="col-6">
           <div class="info__contacts">доставка</div>
         </div>
@@ -148,8 +163,6 @@
 
 </body>
 </html>
-
-
 
 
 
