@@ -2,6 +2,18 @@
 
 $(document).ready(function(){
 
+  var windowWidth = window.screen.width;
+  var meta = document.createElement('meta');
+  meta.name = "viewport";
+  console.log(windowWidth);
+
+  if (windowWidth < 469){
+    meta.content = "width=468, shrink-to-fit=no";
+  } else {
+    meta.content = "width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1";
+  }
+  document.getElementsByTagName('head')[0].appendChild(meta);
+
   //SLIDER
 
   var owl = $('.owl-carousel');
