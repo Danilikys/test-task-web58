@@ -5,7 +5,8 @@ $(document).ready(function(){
   var windowWidth = window.screen.width;
   var meta = document.createElement('meta');
   meta.name = "viewport";
-  console.log(windowWidth);
+
+  //MEDIA < 468
 
   if (windowWidth < 469){
     meta.content = "width=468, shrink-to-fit=no";

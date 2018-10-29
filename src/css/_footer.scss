@@ -64,16 +64,9 @@
     margin-bottom: 54px;
     white-space: nowrap;
 
-    &::after{
-      display: block;
-      content: '';
-      height: 1px;
-      border: .5px solid white;
-      width: 275px;
-      position: absolute;
-      bottom: 3px;
-      left: 50%;
-      transform: translateX(-50%);
+    span{
+      display: inline-block;
+      border-bottom: .5px solid white;
     }
   }
 
@@ -90,7 +83,7 @@
 
 
     &-fb{
-
+      background-position-x: 0;
     }
 
     &-twit{
